@@ -14,6 +14,9 @@
 		68D90A2A265F36BE0024FDB6 /* KirbyCamera2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68D90A28265F36BE0024FDB6 /* KirbyCamera2.xcdatamodeld */; };
 		68D90A2C265F36BF0024FDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D90A2B265F36BF0024FDB6 /* Assets.xcassets */; };
 		68D90A2F265F36BF0024FDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D90A2D265F36BF0024FDB6 /* LaunchScreen.storyboard */; };
+		68D90A37265F37950024FDB6 /* wadoBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D90A36265F37950024FDB6 /* wadoBtn.png */; };
+		68D90A39265F3C740024FDB6 /* Hi_Kirby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68D90A38265F3C740024FDB6 /* Hi_Kirby.mp3 */; };
+		68D90A3B265F42C30024FDB6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D90A3A265F42C30024FDB6 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		68D90A2B265F36BF0024FDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D90A2E265F36BF0024FDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68D90A30265F36BF0024FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68D90A36265F37950024FDB6 /* wadoBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wadoBtn.png; sourceTree = "<group>"; };
+		68D90A38265F3C740024FDB6 /* Hi_Kirby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hi_Kirby.mp3; sourceTree = "<group>"; };
+		68D90A3A265F42C30024FDB6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,10 @@
 				68D90A1F265F36BE0024FDB6 /* AppDelegate.swift */,
 				68D90A21265F36BE0024FDB6 /* SceneDelegate.swift */,
 				68D90A23265F36BE0024FDB6 /* ViewController.swift */,
+				68D90A3A265F42C30024FDB6 /* CameraViewController.swift */,
 				68D90A25265F36BE0024FDB6 /* Main.storyboard */,
+				68D90A36265F37950024FDB6 /* wadoBtn.png */,
+				68D90A38265F3C740024FDB6 /* Hi_Kirby.mp3 */,
 				68D90A2B265F36BF0024FDB6 /* Assets.xcassets */,
 				68D90A2D265F36BF0024FDB6 /* LaunchScreen.storyboard */,
 				68D90A30265F36BF0024FDB6 /* Info.plist */,
@@ -128,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D90A2F265F36BF0024FDB6 /* LaunchScreen.storyboard in Resources */,
+				68D90A37265F37950024FDB6 /* wadoBtn.png in Resources */,
 				68D90A2C265F36BF0024FDB6 /* Assets.xcassets in Resources */,
 				68D90A27265F36BE0024FDB6 /* Main.storyboard in Resources */,
+				68D90A39265F3C740024FDB6 /* Hi_Kirby.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68D90A24265F36BE0024FDB6 /* ViewController.swift in Sources */,
+				68D90A3B265F42C30024FDB6 /* CameraViewController.swift in Sources */,
 				68D90A2A265F36BE0024FDB6 /* KirbyCamera2.xcdatamodeld in Sources */,
 				68D90A20265F36BE0024FDB6 /* AppDelegate.swift in Sources */,
 				68D90A22265F36BE0024FDB6 /* SceneDelegate.swift in Sources */,
@@ -293,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV7HF5V6V3;
 				INFOPLIST_FILE = KirbyCamera2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.k1rnt.KirbyCamera2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RV7HF5V6V3;
 				INFOPLIST_FILE = KirbyCamera2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.k1rnt.KirbyCamera2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
